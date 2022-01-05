@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="5vp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="2vp"
+        ohos:text_size="10fp"
+        ohos:text="订单结算页"></Text>
+
+    <DirectionalLayout
+        ohos:background_element="$graphic:background_common"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <DirectionalLayout
+
+            ohos:height="match_content"
+            ohos:width="290vp"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:padding="2vp"
+                ohos:text_size="20fp"
+                ohos:text="张三"></Text>
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:padding="2vp"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:top_margin="5vp"
+                ohos:text="湖北省武汉市随便在哪"></Text>
+
+        </DirectionalLayout>
+
+
+        <Button
+            ohos:height="match_content"
+            ohos:width="50vp"
+            ohos:text_size="12fp"
+            ohos:padding="5vp"
+            ohos:left_margin="10vp"
+            ohos:background_element="#aaaaaa"
+            ohos:text="修改"></Button>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:padding="10vp"
+        ohos:width="match_parent">
+
+        <RadioContainer
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            >
+            <RadioButton
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:left_margin="30vp"
+                ohos:text_size="15fp"
+                ohos:background_element="$graphic:checkbox_check_element"
+
+                ohos:text="微信">
+
+            </RadioButton>
+
+            <RadioButton
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:left_margin="30vp"
+                ohos:text="支付宝"
+                ohos:background_element="$graphic:checkbox_check_element"
+                ohos:text_size="15fp">
+            </RadioButton>
+
+            <RadioButton
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text="云闪付"
+                ohos:background_element="$graphic:checkbox_check_element"
+
+                ohos:text_size="15fp">
+            </RadioButton>
+
+        </RadioContainer>
+
+
+
+    </DirectionalLayout>
+
+
+    <TableLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:top_margin="5vp">
+        <DirectionalLayout
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:height="80vp"
+            ohos:top_margin="5vp"
+            ohos:background_element="#FFBCA8AC"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+
+
+            <Image
+                ohos:id="$+id:shopcart_item_image"
+                ohos:height="74vp"
+                ohos:margin="3vp"
+                ohos:width="74vp"
+                ohos:image_src="$media:index_icon1">
+            </Image>
+
+            <Text
+                ohos:id="$+id:shopcart_item_product_name_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="商品名称"></Text>
+
+            <Text
+                ohos:id="$+id:shopcart_item_product_price_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="￥120"></Text>
+
+            <Text
+                ohos:id="$+id:shopcart_item_product_number_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="2"></Text>
+            <Text
+                ohos:id="$+id:shopcart_item_product_total_price_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="1000"></Text>
+
+
+        </DirectionalLayout>
+        <DirectionalLayout
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:height="80vp"
+            ohos:top_margin="5vp"
+            ohos:background_element="#FFBCA8AC"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+
+
+            <Image
+                ohos:height="74vp"
+                ohos:margin="3vp"
+                ohos:width="74vp"
+                ohos:image_src="$media:index_icon1">
+            </Image>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="商品名称"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="￥120"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="2"></Text>
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="1000"></Text>
+
+
+        </DirectionalLayout>
+        <DirectionalLayout
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:height="80vp"
+            ohos:top_margin="5vp"
+            ohos:background_element="#FFBCA8AC"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+
+
+            <Image
+                ohos:height="74vp"
+                ohos:margin="3vp"
+                ohos:width="74vp"
+                ohos:image_src="$media:index_icon1">
+            </Image>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="商品名称"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="￥120"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="2"></Text>
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="1000"></Text>
+
+
+        </DirectionalLayout>
+        <DirectionalLayout
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:height="80vp"
+            ohos:top_margin="5vp"
+            ohos:background_element="#FFBCA8AC"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+
+
+            <Image
+                ohos:height="74vp"
+                ohos:margin="3vp"
+                ohos:width="74vp"
+                ohos:image_src="$media:index_icon1">
+            </Image>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="商品名称"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="￥120"></Text>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="2"></Text>
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="2vp"
+                ohos:text_size="10fp"
+                ohos:text="1000"></Text>
+
+
+        </DirectionalLayout>
+
+
+    </TableLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:padding="10vp"
+        ohos:top_margin="5vp"
+        ohos:alignment="right">
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="订单总金额"
+            ohos:text_size="15fp">
+
+        </Text>
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="￥100000"
+            ohos:text_color="#FFC80533"
+            ohos:text_size="15fp">
+
+        </Text>
+    </DirectionalLayout>
+    <Button
+        ohos:id="$+id:order_add_button"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="提交订单"
+        ohos:text_color="#ffffff"
+        ohos:padding="10vp"
+        ohos:background_element="#ff383b"
+        ohos:bottom_margin="45vp">
+
+    </Button>
+
+</DirectionalLayout>

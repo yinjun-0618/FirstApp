@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:padding="5vp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="用户中心"
+        ohos:layout_alignment="center"
+        ohos:text_size="30fp">
+
+    </Text>
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+     ohos:orientation="horizontal"
+        ohos:alignment="vertical_center"
+        ohos:background_element="$graphic:background_index_image">
+
+
+        <Image
+            ohos:height="100vp"
+            ohos:clip_alignment="center"
+            ohos:scale_mode="center"
+            ohos:background_element="$graphic:background_circle_shape"
+            ohos:image_src="$media:index_icon2"
+            ohos:width="70vp">
+        </Image>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_padding="100vp"
+            ohos:text="张三"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp">
+
+        </Text>
+
+    </DirectionalLayout>
+    
+    <TableLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp"
+        ohos:padding="10vp"
+        ohos:background_element="$graphic:background_index_image"
+        ohos:column_count="3">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="待付款"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="待发货"
+            ohos:text_alignment="center"
+
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="待签收"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="已完成"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="已取消"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+        <Text
+            ohos:height="match_content"
+            ohos:width="100vp"
+            ohos:text="全部订单"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"
+            ohos:text_size="20fp"> </Text>
+
+    </TableLayout>
+
+</DirectionalLayout>

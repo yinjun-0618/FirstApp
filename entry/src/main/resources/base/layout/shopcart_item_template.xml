@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="80vp"
+    ohos:top_margin="5vp"
+    ohos:background_element="#FFD41743"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+
+    <Checkbox
+        ohos:text_size="20fp"
+        ohos:height="25vp"
+        ohos:check_element="$graphic:checkbox_check_element"
+        ohos:width="25vp">
+    </Checkbox>
+
+    <Image
+        ohos:id="$+id:shopcart_item_image"
+        ohos:height="74vp"
+        ohos:margin="3vp"
+        ohos:width="74vp"
+        ohos:image_src="$media:index_icon1">
+    </Image>
+
+    <Text
+        ohos:id="$+id:shopcart_item_product_name_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="2vp"
+        ohos:text_size="10fp"
+        ohos:text="商品名称"></Text>
+
+    <Text
+        ohos:id="$+id:shopcart_item_product_price_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="2vp"
+        ohos:text_size="10fp"
+        ohos:text="￥120"></Text>
+
+    <Text
+        ohos:id="$+id:shopcart_item_product_number_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="2vp"
+        ohos:text_size="10fp"
+        ohos:text="2"></Text>
+    <Text
+        ohos:id="$+id:shopcart_item_product_total_price_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="2vp"
+        ohos:text_size="10fp"
+        ohos:text="1000"></Text>
+
+
+</DirectionalLayout>

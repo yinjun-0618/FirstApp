@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:padding="5vp"
+    ohos:orientation="vertical">
+
+    <TextField
+        ohos:id="$+id:index_search_input"
+        ohos:height="45vp"
+        ohos:width="match_parent"
+        ohos:left_padding="15vp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_search_input"
+        ohos:hint="请输入"></TextField>
+
+    <PageSlider
+        ohos:id="$+id:index_image_pageslider"
+        ohos:height="150vp"
+        ohos:background_element="$graphic:background_index_image"
+        ohos:width="match_parent"
+        ohos:top_margin="8vp">
+
+    </PageSlider>
+
+    <TableLayout
+        ohos:height="match_content"
+        ohos:top_margin="5vp"
+        ohos:column_count="4"
+        ohos:padding="20vp"
+        ohos:width="match_parent">
+
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon1"></Image>
+        </DirectionalLayout>
+
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon2"></Image>
+        </DirectionalLayout>
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon3"></Image>
+        </DirectionalLayout>
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon4"></Image>
+        </DirectionalLayout>
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon5"></Image>
+        </DirectionalLayout>
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon6"></Image>
+        </DirectionalLayout>
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon7"></Image>
+        </DirectionalLayout>
+
+        <DirectionalLayout ohos:height="match_content" ohos:width="83vp" ohos:alignment="center">
+            <Image ohos:height="40vp" ohos:width="40vp" ohos:image_src="$media:index_icon8"></Image>
+        </DirectionalLayout>
+
+
+    </TableLayout>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+        <TableLayout
+            ohos:id="$+id:index_product_list"
+            ohos:height="match_content"
+            ohos:column_count="2"
+            ohos:top_margin="5vp"
+            ohos:width="match_parent">
+
+
+            <DirectionalLayout
+                xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:id="$+id:product01"
+                ohos:height="220vp"
+                ohos:width="170vp"
+                ohos:margin="3vp"
+                ohos:background_element="$graphic:background_index_image"
+                ohos:orientation="vertical">
+
+                <Image
+                    ohos:id="$+id:product_image1"
+                    ohos:height="150vp"
+                    ohos:width="match_parent"
+                    ohos:image_src="$media:index_icon1"
+                    ohos:clip_alignment="center"
+                    ohos:scale_mode="center"
+                    ></Image>
+
+                <Text
+                    ohos:id="$+id:product_name_text1"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="10fp"
+                    ohos:text="商品名称"></Text>
+
+                <Text
+                    ohos:id="$+id:product_price1"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="13fp"
+                    ohos:text="￥13"
+                    ohos:text_color="#FFE32121"
+                    ></Text>
+
+            </DirectionalLayout>
+            <DirectionalLayout
+                xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:height="220vp"
+                ohos:width="170vp"
+                ohos:margin="3vp"
+                ohos:background_element="$graphic:background_index_image"
+                ohos:orientation="vertical">
+
+                <Image
+                    ohos:id="$+id:product_image2"
+                    ohos:height="150vp"
+                    ohos:width="match_parent"
+                    ohos:image_src="$media:index_icon1"
+                    ohos:clip_alignment="center"
+                    ohos:scale_mode="center"
+                    ></Image>
+
+                <Text
+                    ohos:id="$+id:product_name_text2"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="10fp"
+                    ohos:text="商品名称"></Text>
+
+                <Text
+                    ohos:id="$+id:product_price2"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="13fp"
+                    ohos:text="￥13"
+                    ohos:text_color="#FFE32121"
+                    ></Text>
+
+            </DirectionalLayout>
+            <DirectionalLayout
+                xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:height="220vp"
+                ohos:width="170vp"
+                ohos:margin="3vp"
+                ohos:background_element="$graphic:background_index_image"
+                ohos:orientation="vertical">
+
+                <Image
+                    ohos:id="$+id:product_image3"
+                    ohos:height="150vp"
+                    ohos:width="match_parent"
+                    ohos:image_src="$media:index_icon1"
+                    ohos:clip_alignment="center"
+                    ohos:scale_mode="center"
+                    ></Image>
+
+                <Text
+                    ohos:id="$+id:product_name_text3"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="10fp"
+                    ohos:text="商品名称"></Text>
+
+                <Text
+                    ohos:id="$+id:product_price3"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="13fp"
+                    ohos:text="￥13"
+                    ohos:text_color="#FFE32121"
+                    ></Text>
+
+            </DirectionalLayout>
+            <DirectionalLayout
+                xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:height="220vp"
+                ohos:width="170vp"
+                ohos:margin="3vp"
+                ohos:background_element="$graphic:background_index_image"
+                ohos:orientation="vertical">
+
+                <Image
+                    ohos:id="$+id:product_image4"
+                    ohos:height="150vp"
+                    ohos:width="match_parent"
+                    ohos:image_src="$media:index_icon1"
+                    ohos:clip_alignment="center"
+                    ohos:scale_mode="center"
+                    ></Image>
+
+                <Text
+                    ohos:id="$+id:product_name_text4"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="10fp"
+                    ohos:text="商品名称"></Text>
+
+                <Text
+                    ohos:id="$+id:product_price4"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:padding="2vp"
+                    ohos:text_size="13fp"
+                    ohos:text="￥13"
+                    ohos:text_color="#FFE32121"
+                    ></Text>
+
+            </DirectionalLayout>
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+</DirectionalLayout>

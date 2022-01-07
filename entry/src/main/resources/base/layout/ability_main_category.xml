@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:padding="5vp"
+    ohos:orientation="vertical">
+    <TextField
+        ohos:id="$+id:category_search_textfield"
+        ohos:height="35vp"
+        ohos:width="match_parent"
+        ohos:left_padding="15vp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:background_search_input"
+        ohos:hint="请输入"></TextField>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:top_margin="5vp"
+        ohos:orientation="horizontal"
+        ohos:background_element="$graphic:background_index_image"
+        ohos:padding="2vp">
+
+
+        <ListContainer
+            ohos:id="$+id:first_category_listcontainer"
+            ohos:height="match_parent"
+            ohos:background_element="#cccccc"
+            ohos:width="100vp">
+
+
+        </ListContainer>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="245vp"
+            ohos:left_padding="5vp"
+            ohos:orientation="vertical">
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:top_margin="10vp"
+                ohos:text_size="15fp"
+                ohos:text="二级分类1"
+                ohos:text_alignment="left"></Text>
+
+            <TableLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:column_count="4">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类1"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类2"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类3"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类4"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类5"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类6"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类7"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类8"
+                    ohos:width="60vp">
+
+
+                </Text>
+            </TableLayout>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:top_margin="10vp"
+                ohos:text_size="15fp"
+                ohos:text="二级分类2"
+                ohos:text_alignment="left"></Text>
+
+            <TableLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:column_count="4">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类1"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类2"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类3"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类4"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类5"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类6"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类7"
+                    ohos:width="60vp">
+
+
+                </Text>
+                <Text
+                    ohos:height="match_content"
+                    ohos:text_size="8fp"
+                    ohos:text_alignment="left"
+                    ohos:text="分类8"
+                    ohos:width="60vp">
+
+
+                </Text>
+            </TableLayout>
+
+
+        </DirectionalLayout>
+
+
+
+
+    </DirectionalLayout>
+
+
+
+
+</DirectionalLayout>
